@@ -1,0 +1,50 @@
+<?php
+
+$answer = "";
+
+if(isset($_POST["submit"])) {
+
+	$julian = $_POST["julian"];
+	
+	if($julian >= 1721426 && $julian <= 2914695 && preg_match('/[^0-9]/', $julian) === 0) {
+		$gregorian = jdtogregorian($julian);
+
+		$datebits = explode("/", $gregorian);
+
+		if($datebits[2] > 2014) {
+			$datebits[0] += ($datebits[2] - 2014) * 12;
+			$datebits[2] = 2014;
+		}
+		
+		if(strlen($datebits[0]) == 1)
+			$datebits[0] = "0".$datebits[0];
+			
+		if(strlen($datebits[1]) == 1)
+			$datebits[1] = "0".$datebits[1];
+			
+		while(strlen($datebits[2]) < 4) {
+			$datebits[2] = "0".$datebits[2];
+		}
+
+		$answer = "Perpetual 2014 Date: ".$datebits[2]."-".$datebits[0]."-".$datebits[1];
+	}
+	else $answer = "Invalid Julian Date";
+
+}
+
+?>
+
+<html>
+<body>
+<h1><p>Perpetual 2014</p></h1>
+<form action="CodeChallenge6.php" method="POST">
+<label>Julian Day: </label><input type="text" name="julian" maxlength=7 size=10 /><br /><br />
+<input type="submit" name="submit" value="Get Date" />
+</form>
+
+<?php
+echo "<h3><p>".$answer."</p></h3>";
+?>
+
+</body>
+</html>
