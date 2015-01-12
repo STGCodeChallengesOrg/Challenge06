@@ -1,0 +1,6 @@
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge06_PerpetualCalendar\bin\Debug\CodeChallenge06_PerpetualCalendar.exe.config
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge06_PerpetualCalendar\bin\Debug\CodeChallenge06_PerpetualCalendar.exe
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge06_PerpetualCalendar\bin\Debug\CodeChallenge06_PerpetualCalendar.pdb
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge06_PerpetualCalendar\obj\Debug\CodeChallenge06_PerpetualCalendar.csprojResolveAssemblyReference.cache
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge06_PerpetualCalendar\obj\Debug\CodeChallenge06_PerpetualCalendar.exe
+C:\Users\Quinn Heiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge06_PerpetualCalendar\obj\Debug\CodeChallenge06_PerpetualCalendar.pdb
